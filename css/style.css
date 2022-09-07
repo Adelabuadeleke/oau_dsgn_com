@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&family=Inter&family=Figtreefamily=Gotham&display=swap');
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0 20px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* padding: 10px 30px; */
+}
+
+.intro_conts {
+    /* width: 600px; */
+}
+
+.intro_imgs {
+
+    max-width: 400px;
+    margin: 10px;
+}
+
+.intro_conts h1 {
+    font-family: 'Nuosu SIL', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 78px;
+    line-height: 79px;
+    max-width: 650px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.join {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+
+
+.join_imgs img{
+    position: relative;
+    margin-left: -12px;
+}
+
+.join button {
+    margin-right: 30px;
+    width: 177px;
+    height: 71px;
+    background: #000000;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.space p {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 34px;
+}
+
+.space>button>img {
+    margin-right: 10px;
+}
+
+.space button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 269px;
+    height: 75px;
+    background: #FFFFFF;
+    border: 1.6px solid #000000;
+    font-family: 'Figtree';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+}
+.intro_imgs{
+    display: flex;
+}
+
+.col_one>img,
+.col_two>img {
+    margin: 10px;
+}
+.col_one{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.col_two {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-top: 25px;
+}
+
+.vector {
+    /* width: 100px; */
+    position: relative;
+    /* bottom: 0; */
+    top: -100px;
+    right: -100px;
+}
+
+.miss {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .fathiu::before {
+    content: "";
+}
+.fathiu::after {
+    content: url('../img/Vector.png');
+    position: absolute;
+    /* bottom: 0; */
+    /* right: 0; */
+/* }  */
+
+.second {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* padding: 50px; */
+}
+
+.second_img{
+    width: 400px;
+}
+
+.second_img img {
+    width: 400px;
+}
+
+.second_content {
+    max-width: 500px;
+}
+
+.second_content h2 {
+    font-family: 'Nuosu SIL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+}
+
+.second_content p {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+}
+
+.second_content button {
+    width: 279px;
+    height: 71px;
+    background: #000000;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+}
