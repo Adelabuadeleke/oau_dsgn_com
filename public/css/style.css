@@ -38,8 +38,6 @@ li {
 .intro_conts h1 {
     font-family: 'Nuosu SIL', Arial, Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 78px;
-    line-height: 79px;
     max-width: 650px;
     letter-spacing: -0.02em;
     color: #000000;
@@ -52,15 +50,10 @@ li {
 
 
 
-.join_imgs img{
-    position: relative;
-    margin-left: -12px;
-}
+
 
 .join button {
     margin-right: 30px;
-    width: 177px;
-    height: 71px;
     background: #000000;
     border-radius: 4px;
     color: white;
@@ -100,30 +93,19 @@ li {
     display: flex;
 }
 
-.col_one>img,
-.col_two>img {
-    margin: 10px;
-}
+
 .col_one{
     display: flex;
     flex-direction: column;
-    width: 200px;
 }
 
 .col_two {
     display: flex;
     flex-direction: column;
-    width: 200px;
     margin-top: 25px;
 }
 
-.vector {
-    /* width: 100px; */
-    position: relative;
-    /* bottom: 0; */
-    top: -100px;
-    right: -100px;
-}
+
 
 .miss {
     display: flex;
@@ -145,7 +127,7 @@ li {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    /* padding: 50px; */
+    padding: 20px;
 }
 
 .second_img{
@@ -186,4 +168,104 @@ li {
     font-weight: 400;
     font-size: 18px;
     line-height: 34px;
+}
+
+/* responsiveness */
+@media screen and (min-width: 320px) {
+    nav ul {
+        display:  none;
+    }
+
+    .intro_conts h1 {
+        font-size: 48px;
+        line-height: 49px;
+    }
+
+    .join button {
+        width: 100px;
+        height: 41px;
+    }
+
+    .join_imgs img {
+        position: relative;
+        margin-left: -12px;
+        width: 40px;
+    }
+
+    .col_one,
+    .col_two {
+        width: 150px;
+    }
+
+    .col_one>img,
+    .col_two>img {
+        margin: 10px;
+        width: 130px;
+    }
+
+    .vector {
+        width: 65px;
+        position: relative;
+        /* bottom: 0; */
+        top: -100px;
+        right: -80px;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .intro_conts h1 {
+        font-size: 58px;
+        line-height: 59px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    nav ul {
+        display: flex;
+    }
+
+    .intro_conts h1 {
+        font-size: 78px;
+        line-height: 79px;
+    }
+
+    .join button {
+        width: 177px;
+        height: 71px;
+    }
+
+    .join_imgs img {
+        position: relative;
+        margin-left: -12px;
+        width: initial;
+    }
+
+    .intro_imgs {
+        padding: 20px;
+    }
+
+    .col_one, 
+    .col_two {
+        width: 200px;
+    }
+
+    .col_one>img,
+    .col_two>img {
+        margin: 10px;
+        width: initial;
+    }
+
+    .vector {
+        /* width: 100px; */
+        position: relative;
+        /* bottom: 0; */
+        top: -100px;
+        right: -100px;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    
 }
